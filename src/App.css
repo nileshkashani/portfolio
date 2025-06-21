@@ -1,0 +1,27 @@
+.active-link {
+  color: #2563eb; /* blue-600 */
+  position: relative;
+}
+
+.active-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 3px; /* thick underline */
+  width: 100%;
+  background-color: #2563eb;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Remove hover underline when active */
+.active-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* Cancel hover animation if already active */
+.active-link:hover {
+  color: #2563eb;
+}
