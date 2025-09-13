@@ -21,7 +21,7 @@ const Home = () => {
           </div>
         </div>
         <a
-          href="/portfolio/public/Nilesh Kashani - Resume (2).pdf"
+          href="Nilesh Kashani - Resume (2).pdf"
           className="text-xs inline-block px-3 py-3 p-0 mt-10 bg-blue-500 text-white font-semibold rounded-md shadow-md 
               hover:bg-blue-600 hover:scale-105 transition-transform duration-300 ease-in-out lg:mt-16 lg:text-xl w-36 md:w-52 lg:w-56 md:text-center lg:text-center text-center"
         >
@@ -77,7 +77,7 @@ const Home = () => {
                   y="60"
                   width="380"
                   height="435"
-                  href="/portfolio/public/nilesh2.png"
+                  href="nilesh2.png"
                 />
               </g>
             </svg>
