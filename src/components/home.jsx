@@ -20,7 +20,7 @@ const Home = () => {
           </div>
 
           <a
-            href="/portfolio/finalResume.pdf"
+            href="/portfolio/public/Nilesh Kashani - Resume (2).pdf"
             download
             className="inline-block mt-8 bg-blue-500 text-white px-6 py-3 rounded-md shadow-md text-sm md:text-base lg:text-lg hover:bg-blue-600 hover:scale-105 transition-transform duration-300 ease-in-out lg:w-[31%] w-[60%]"
           >
