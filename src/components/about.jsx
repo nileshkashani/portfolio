@@ -18,7 +18,7 @@ const About = () => {
         </div>
 
         {/* Education Heading */}
-        <p className="font-poppins lg:text-4xl sm:text-2xl text-center font-semibold text-blue-600 underline underline-offset-4 pt-10">
+        <p className="font-poppins lg:text-4xl sm:text-xl text-3xl text-center font-semibold text-blue-600 underline underline-offset-4 pt-10">
           Education
         </p>
 
