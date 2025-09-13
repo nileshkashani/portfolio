@@ -77,7 +77,7 @@ const Home = () => {
                   y="60"
                   width="380"
                   height="435"
-                  href="public/nilesh2.png"
+                  href="/portfolio/public/nilesh2.png"
                 />
               </g>
             </svg>
