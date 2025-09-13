@@ -11,6 +11,7 @@ import Copyright from './components/copyright.jsx';
 function App() {
   return (
     <>
+      {alert("If there is any problem in page, please open it in your browser")}
       <Navbar />
       <Home />
       <About/>
