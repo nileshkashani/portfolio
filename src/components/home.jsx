@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="lg:h-[100vh] min-h-screen relative w-full font-poppins font-bold overflow-hidden pt-24 shadow-md md:h-[110vh] lg:mt-[100px]"
+      className="lg:h-[100vh] min-h-screen relative w-full font-poppins font-bold overflow-hidden pt-24 shadow-md md:h-[110vh] lg:mt-[100px] mt-7"
     >
       {/* Main Container */}
       <div className="flex flex-col lg:flex-row items-center justify-between w-full px-6 lg:px-24 gap-10 lg:gap-0">
