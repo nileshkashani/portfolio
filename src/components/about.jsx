@@ -9,16 +9,16 @@ const About = () => {
 
         {/* About Me */}
         <div className="aboutme flex flex-col text-center justify-center w-full md:w-[90%] lg:w-[53vw] mt-24">
-          <p className="font-semibold font-poppins text-2xl sm:text-xl text-blue-600 underline underline-offset-4">
+          <p className="font-semibold font-poppins lg:text-4xl text-3xl sm:text-xl text-blue-600 underline underline-offset-4">
             About Me
           </p>
-          <p className="font-poppins text-lg sm:text-base mt-10 text-black leading-relaxed">
-            Hello! I’m <b className='font-bold'>Nilesh</b>, a curious and enthusiastic software developer with a strong grip on <b className='font-bold'>C, C++</b>, and frontend technologies like <b className='font-bold'>HTML, CSS, JavaScript, and React</b>. I’m currently a second-year student at ICCS Pune, pursuing a Bachelor of Science in Computer Science. I love turning ideas into clean, responsive, and user-friendly interfaces. Building intuitive web experiences excites me, and I’m always eager to learn new tools, take on challenges, and grow as a developer.
+          <p className="font-poppins text-lg sm:text-base mt-10 text-black leading-relaxed lg:text-2xl md:text=-xl">
+            Hello! I’m <b className='font-bold'>Nilesh</b>, a curious and enthusiastic software developer with a strong grip on <b className='font-bold'>C, C++, Java</b>, frontend technologies like <b className='font-bold'>HTML, CSS, JavaScript, React</b>, And Backend Technologies like , <b className='font-bold'>SpringBoot, Apache Tomcat, Hibernate, etc.</b> I’m currently a second-year student at ICCS Pune, pursuing a Bachelor of Science in Computer Science. I love turning ideas into clean, responsive, and user-friendly interfaces. Building intuitive web experiences excites me, and I’m always eager to learn new tools, take on challenges, and grow as a developer.
           </p>
         </div>
 
         {/* Education Heading */}
-        <p className="font-poppins text-2xl sm:text-xl text-center font-semibold text-blue-600 underline underline-offset-4 pt-10">
+        <p className="font-poppins lg:text-4xl sm:text-2xl text-center font-semibold text-blue-600 underline underline-offset-4 pt-10">
           Education
         </p>
 

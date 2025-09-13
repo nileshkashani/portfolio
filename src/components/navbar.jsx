@@ -17,13 +17,12 @@ const Navbar = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50 font-poppins">
+    <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50 font-poppins ">
       <div className="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
         {/* Logo */}
         <div className="text-2xl font-bold text-blue-600">Nilesh</div>
 
-        {/* Desktop Nav */}
-        <div className="hidden md:flex gap-8 font-bold text-base">
+        <div className="hidden md:flex gap-8 font-bold text-xl">
           {navItems.map((item) => (
             <Link
               key={item.link}
@@ -45,13 +44,13 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Mobile Hamburger Icon */}
+      
         <div className="md:hidden text-3xl text-blue-600 cursor-pointer" onClick={toggleMenu}>
           {isOpen ? <HiX /> : <HiOutlineMenuAlt3 />}
         </div>
       </div>
 
-      {/* Mobile Dropdown Menu */}
+      
       {isOpen && (
         <div className="md:hidden flex flex-col gap-6 items-center bg-white py-6 shadow-md">
           {navItems.map((item) => (

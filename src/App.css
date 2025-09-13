@@ -25,3 +25,7 @@
 .active-link:hover {
   color: #2563eb;
 }
+
+body{
+  overflow-x: hidden;
+}

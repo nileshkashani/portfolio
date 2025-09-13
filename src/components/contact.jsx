@@ -2,8 +2,11 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="min-h-screen flex flex-col items-center justify-center bg-white py-20 shadow-md mt-3">
-      <h2 className="text-3xl font-semibol text-blue-600 underline underline-offset-4 mb-12 font-poppins">
+    <section
+      id="contact"
+      className="min-h-screen flex flex-col items-center justify-center bg-white py-20 shadow-md  scroll-mt-24 md:mt-1 mt-1"
+    >
+      <h2 className="text-3xl font-semibold text-blue-600 underline underline-offset-4 mb-12 font-poppins">
         Contact Me
       </h2>
 
