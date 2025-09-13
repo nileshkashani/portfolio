@@ -2,7 +2,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 function HeroSection() {
   return (
-    <div className="text-blue-500 text-3xl sm:text-5xl lg:text-6xl textfont-bold font-poppins">
+    <div className="text-blue-500 text-3xl sm:text-5xl lg:text-6xl font-bold font-poppins">
       <p className='text-black'>I'm a</p>
       <div className="text-blue-600">
         <Typewriter

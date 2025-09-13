@@ -16,13 +16,12 @@ const Home = () => {
           <h1 className="text-3xl sm:text-5xl lg:text-6xl p-0 lg:mb-5">
             I'm <span className="text-blue-600 font-extrabold">Nilesh.</span>
           </h1>
-          <p className=" mt-3">
+          <div className=" mt-3">
             <HeroSection />
-          </p>
+          </div>
         </div>
         <a
-          href="/resume.pdf"
-          download
+          href="/portfolio/public/Nilesh Kashani - Resume (2).pdf"
           className="text-xs inline-block px-3 py-3 p-0 mt-10 bg-blue-500 text-white font-semibold rounded-md shadow-md 
               hover:bg-blue-600 hover:scale-105 transition-transform duration-300 ease-in-out lg:mt-16 lg:text-xl w-36 md:w-52 lg:w-56 md:text-center lg:text-center text-center"
         >
@@ -34,7 +33,7 @@ const Home = () => {
           {/* Social icons */}
           <div className="flex flex-col md:flex-row lg:justify-center gap-10 mt-10">
             <a
-              href="https://github.com/Nilesh-45-dev"
+              href="https://github.com/nileshkashani"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform md:hover:scale-110"
@@ -77,8 +76,8 @@ const Home = () => {
                   x="50"
                   y="60"
                   width="380"
-                  height="410"
-                  // href="public/6acd8bb5-5788-4c91-b96a-3f98e1c1b96a-removebg-preview.png"
+                  height="435"
+                  href="public/nilesh2.png"
                 />
               </g>
             </svg>
