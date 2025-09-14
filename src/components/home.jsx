@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="lg:h-[100vh] min-h-screen relative w-full font-poppins font-bold overflow-hidden pt-24 shadow-md md:h-[110vh] lg:mt-[100px] mt-16"
+      className="lg:h-[100vh] min-h-lvh relative w-full font-poppins font-bold overflow-hidden pt-24 shadow-md md:h-[110vh] lg:mt-[100px] mt-16"
     >
       {/* Main Container */}
       <div className="flex flex-col lg:flex-row items-center justify-between w-full px-6 lg:px-24 gap-10 lg:gap-0">
@@ -27,7 +27,7 @@ const Home = () => {
             href="Nilesh Kashani - Resume (2).pdf"
             className="text-xs inline-block px-3 py-3 mt-10 bg-blue-500 text-white font-semibold rounded-md shadow-md 
               hover:bg-blue-600 hover:scale-105 transition-transform duration-300 ease-in-out 
-              lg:mt-16 lg:text-xl w-36 md:w-52 lg:w-56 text-center"
+              lg:mt-16 lg:text-xl w-40 md:w-52 h-12lg:w-56 text-center"
           >
             Download Resume
           </a>
@@ -65,7 +65,7 @@ const Home = () => {
             </div>
 
             {/* Image Blob */}
-            <div className="w-[200px] h-[220px] sm:w-[250px] sm:h-[260px] mt-0">
+            <div className="w-[220px] h-[250px] sm:w-[250px] sm:h-[260px] mt-0">
               <svg viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
                 <mask id="mask0" mask-type="alpha">
                   <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
@@ -75,7 +75,7 @@ const Home = () => {
                     fill="#3B82F6"
                     d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
                   />
-                  <image x="50" y="60" width="380" height="435" href="nilesh2.png" />
+                  <image x="50" y="60" width="380" height="450" href="nilesh2.png" />
                 </g>
               </svg>
             </div>
