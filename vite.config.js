@@ -4,5 +4,5 @@
 
     export default defineConfig({
       plugins: [react()],
-      base: '/portfolio/', // Replace <YOUR_NEW_REPO_NAME>
+      base: '/',
     });
