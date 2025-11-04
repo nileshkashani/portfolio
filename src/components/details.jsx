@@ -79,7 +79,7 @@ const Details = () => {
 
           src={images[index]}
           alt={`${project.title} screenshot ${index + 1}`}
-          className="rounded-3xl shadow-lg w-full h-[400px] object-cover transition-all duration-500"
+          className="rounded-3xl shadow-lg w-full h-[400px] sm:h-[200px] object-cover transition-all duration-500"
         />
 
         <button
