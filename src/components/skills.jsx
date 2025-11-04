@@ -53,7 +53,7 @@ const Skills = () => {
 const SkillCard = ({ icon, label }) => {
   return (
     <div className="w-28 h-24 sm:w-32 sm:h-20 md:w-[200px] md:h-24 lg:w-[250px] lg:h-32 xl:w-[250px] xl:h-28 bg-blue-500 rounded-xl shadow-md flex flex-col items-center justify-center 
-    transition-transform duration-300 transform hover:shadow-xl hover:bg-blue-600 hover:scale-105 cursor-pointer">
+    transition-transform duration-300 transform hover:shadow-xl hover:bg-blue-600 cursor-pointer">
       <div className="text-4xl sm:text-3xl md:text-4xl text-white mb-2">
         {icon}
       </div>

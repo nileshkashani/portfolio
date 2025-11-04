@@ -26,7 +26,7 @@ const About = () => {
         <div className="education flex flex-col md:flex-row flex-wrap justify-center items-center gap-10 w-full">
 
           {/* College */}
-          <div className="w-[90%] sm:w-[90%] md:w-[400px] h-40 bg-blue-500 rounded-2xl flex flex-col justify-center transition duration-300 hover:bg-blue-600 hover:scale-105 cursor-pointer">
+          <div className="w-[90%] sm:w-[90%] md:w-[400px] h-40 bg-blue-500 rounded-2xl flex flex-col justify-center transition duration-300 hover:bg-blue-600  cursor-pointer">
             <div className="flex items-center">
               <IoIosSchool className="w-10 h-10 text-white pl-4" />
               <h1 className="text-white pl-4 text-xl font-semibold font-poppins">Indira College Pune</h1>
@@ -37,7 +37,7 @@ const About = () => {
           </div>
 
           {/* 12th */}
-          <div className="w-[90%] sm:w-[90%] md:w-[400px] h-40 bg-blue-500 rounded-2xl flex flex-col justify-center transition duration-300 hover:bg-blue-600 hover:scale-105 cursor-pointer">
+          <div className="w-[90%] sm:w-[90%] md:w-[400px] h-40 bg-blue-500 rounded-2xl flex flex-col justify-center transition duration-300 hover:bg-blue-600  cursor-pointer">
             <div className="flex items-center">
               <FaSchool className="w-10 h-10 text-white pl-4 " />
               <h1 className="text-white pl-4 text-xl font-semibold font-poppins">Dr College Nandurbar</h1>
@@ -48,7 +48,7 @@ const About = () => {
           </div>
 
           {/* 10th */}
-          <div className="w-[90%] sm:w-[90%] md:w-[400px] h-40 bg-blue-500 rounded-2xl flex flex-col justify-center transition duration-300 hover:bg-blue-600 hover:scale-105 cursor-pointer">
+          <div className="w-[90%] sm:w-[90%] md:w-[400px] h-40 bg-blue-500 rounded-2xl flex flex-col justify-center transition duration-300 hover:bg-blue-600 cursor-pointer">
             <div className="flex items-center">
               <FaSchool className="w-10 h-10 text-white pl-4 " />
               <h1 className="text-white pl-4 text-xl font-semibold font-poppins">S.A.M School Nandurbar</h1>

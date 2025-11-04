@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import HeroSection from "./effect.jsx";
 
 const Home = () => {
@@ -24,9 +25,9 @@ const Home = () => {
 
           {/* Resume Button */}
           <a
-            href="Nilesh Kashani - Resume (2).pdf"
+            href="Nilesh Kashani - Resume (13).pdf"
             className="text-xs inline-block px-3 py-3 mt-10 bg-blue-500 text-white font-semibold rounded-md shadow-md 
-              hover:bg-blue-600 hover:scale-105 transition-transform duration-300 ease-in-out 
+              hover:bg-blue-600 transition-transform duration-300 ease-in-out 
               lg:mt-16 lg:text-xl w-40 md:w-52 h-12lg:w-56 text-center"
           >
             Download Resume
@@ -40,8 +41,8 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/nilesh-kashani-876646346" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 text-black hover:text-blue-600" />
             </a>
-            <a href="https://www.instagram.com/nilesh_____45" target="_blank" rel="noopener noreferrer">
-              <FaInstagram className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 text-black hover:text-blue-600" />
+            <a href="https://www.leetcode.com/nilesh_____45" target="_blank" rel="noopener noreferrer">
+              <SiLeetcode className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 text-black hover:text-blue-600" />
             </a>
           </div>
         </div>
