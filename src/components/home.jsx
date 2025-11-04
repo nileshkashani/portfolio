@@ -60,8 +60,8 @@ const Home = () => {
               <a href="https://www.linkedin.com/in/nilesh-kashani-876646346" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="w-9 h-9 text-black hover:text-blue-600" />
               </a>
-              <a href="https://www.instagram.com/nilesh_____45" target="_blank" rel="noopener noreferrer">
-                <FaInstagram className="w-9 h-9 text-black hover:text-blue-600" />
+              <a href="https://www.leetcode.com/nilesh_____45" target="_blank" rel="noopener noreferrer">
+                <SiLeetcode className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 text-black hover:text-blue-600" />
               </a>
             </div>
 
@@ -86,9 +86,9 @@ const Home = () => {
           {/* Tablet + PC blob */}
           <div className="hidden md:block w-[250px] h-[280px] sm:w-[320px] md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[450px] mt-10 lg:mt-0">
             <svg viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-             <mask id="mask1" mask-type="alpha">
-                  <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
-                </mask>
+              <mask id="mask1" mask-type="alpha">
+                <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+              </mask>
               <g mask="url(#mask1)">
                 <path
                   fill="#3B82F6"
