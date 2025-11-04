@@ -61,13 +61,10 @@ const Home = () => {
                 <FaLinkedin className="w-9 h-9 text-black hover:text-blue-600" />
               </a>
               <a href="https://www.leetcode.com/nilesh_____45" target="_blank" rel="noopener noreferrer">
-<<<<<<< HEAD
+
                 <SiLeetcode className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 text-black hover:text-blue-600" />
               </a>
-=======
-              <SiLeetcode className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 text-black hover:text-blue-600" />
-            </a>
->>>>>>> 9e29f7ef297b631fd8001803b070106c550456cc
+             
             </div>
 
             {/* Image Blob */}
