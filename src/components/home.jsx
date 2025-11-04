@@ -60,9 +60,9 @@ const Home = () => {
               <a href="https://www.linkedin.com/in/nilesh-kashani-876646346" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="w-9 h-9 text-black hover:text-blue-600" />
               </a>
-              <a href="https://www.instagram.com/nilesh_____45" target="_blank" rel="noopener noreferrer">
-                <FaInstagram className="w-9 h-9 text-black hover:text-blue-600" />
-              </a>
+              <a href="https://www.leetcode.com/nilesh_____45" target="_blank" rel="noopener noreferrer">
+              <SiLeetcode className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 text-black hover:text-blue-600" />
+            </a>
             </div>
 
             {/* Image Blob */}
